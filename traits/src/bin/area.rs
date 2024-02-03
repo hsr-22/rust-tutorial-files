@@ -1,5 +1,5 @@
-pub trait Area {
-    fn area(&self) -> f64;
+pub trait Area { // public trait
+    fn area(&self) -> f64; // method signature
 }
 
 struct Rectangle {

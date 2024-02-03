@@ -19,7 +19,7 @@ struct Circle {
 
 impl Area for Circle {
     fn area(&self) -> f64 {
-        3.14 * self.radius * self.radius
+        std::f64::consts::PI * self.radius * self.radius
     }
 }
 

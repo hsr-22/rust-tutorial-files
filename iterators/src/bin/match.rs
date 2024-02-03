@@ -4,7 +4,7 @@ fn main() {
 
     let matches: u32 = v1
         .iter()
-        .zip(v2.iter())
+        .zip(v2.iter()) // zip is a method that pairs each element of the iterator with the corresponding element from the other iterator
         .map(|(a, b)| if a == b { 1 } else { 0 })
         .sum();
     println!("Num matches = {matches}");

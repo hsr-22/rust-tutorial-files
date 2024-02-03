@@ -33,3 +33,12 @@
 // rust doesn't have a garbage collector, so it uses the concept of ownership to manage memory.
 
 // rust doesn't have classes, but it has structs, which are similar to classes.
+
+// Rust compiler is very strict about ownerships.
+
+// Crate is the smallest unit of code in Rust, and a package is a collection of crates.
+// Crates can be binary or library.
+
+// mod garden
+// src/garden.rs
+// src/garden/mod.rs

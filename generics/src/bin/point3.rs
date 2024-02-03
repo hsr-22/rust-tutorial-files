@@ -7,7 +7,7 @@ struct Point<T> {
 
 impl<T> Point<T>
 where
-    T: Num + Copy,
+    T: Num + Copy, // T needs to support the Num trait and the Copy trait
 {
     fn square_distance_from_origin(&self) -> T {
         self.x * self.x + self.y * self.y
