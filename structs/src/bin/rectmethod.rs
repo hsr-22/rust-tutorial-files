@@ -1,10 +1,10 @@
-#[derive(Debug)]
+#[derive(Debug)] // so we can inspect the state of our struct instances for debugging
 struct Rectangle {
     width: u32,
     height: u32,
 }
 
-impl Rectangle {
+impl Rectangle { // implementation block, where we define methods on the struct
     fn area(&self) -> u32 {
         self.width * self.height
     }

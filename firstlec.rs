@@ -24,3 +24,12 @@
 // the pointer to the string is moved to the new variable, and the old variable is invalidated.
 // to clone a string, use the clone method. but this is an expensive operation.
 // can use the & operator to create a reference to the string, which does not take ownership of the string.
+// creating a reference is called borrowing, and the reference is valid until the end of the scope in which it was created.
+
+// mutable references are also allowed, but only one mutable reference is allowed at a time.
+
+// slices are references to a part of a string, and are immutable.
+
+// rust doesn't have a garbage collector, so it uses the concept of ownership to manage memory.
+
+// rust doesn't have classes, but it has structs, which are similar to classes.

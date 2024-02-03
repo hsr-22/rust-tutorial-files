@@ -4,6 +4,6 @@ fn main() {
     println!("The length of '{}' is {}.", s1, len);
 }
 
-fn calculate_length(s: &String) -> usize {
+fn calculate_length(s: &String) -> usize { // usize is a unsigned 64-bit integer
     s.len()
 }

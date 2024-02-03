@@ -16,7 +16,7 @@ impl Rectangle {
 
 fn main() {
     let rect1 = Rectangle {
-        width: 50,
+        width: 30,
         height: 50,
     };
 
@@ -26,5 +26,8 @@ fn main() {
     );
     if rect1.is_square() {
         println!("The rectangle is a square.")
+    }
+    else {
+        println!("The rectangle is not a square.")
     }
 }
