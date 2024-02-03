@@ -17,3 +17,10 @@
 //     pattern => expression,
 //     pattern => expression,
 // }
+
+// ownership rules, chapter 4 in rust textbook
+
+// string does not implement copy trait, so it is moved when assigned to another variable.
+// the pointer to the string is moved to the new variable, and the old variable is invalidated.
+// to clone a string, use the clone method. but this is an expensive operation.
+// can use the & operator to create a reference to the string, which does not take ownership of the string.
