@@ -22,11 +22,11 @@ fn fibonacci_nonrec(n: u64) -> u64 {
 
 #[cfg(test)]
 mod fibtests {
-    use super::*;
+    use super::*; // include the code from the outer scope
 
-    #[test]
+    #[test] // this attribute indicates that the function is a test
     fn test_basecases() {
-        assert_eq!(fibonacci_nonrec(1), 1);
+        assert_eq!(fibonacci_nonrec(1), 1); // assert_eq! is a macro that checks if the two arguments are equal
         assert_eq!(fibonacci_nonrec(2), 1);
     }
 }

@@ -1,6 +1,6 @@
 fn main() {
-    let x = 4;
+    let mut x = 4; // mut is short for mutable
     println!("{x}");
-    x = 5;
+    x = 5; // This is allowed because x is mutable
     println!("{x}");
 }
